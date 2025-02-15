@@ -1,0 +1,38 @@
+modLoader = "javafml"
+loaderVersion = "[2,)"
+#issueTrackerURL = ""
+license = "All Rights Reserved"
+
+[[mods]]
+modId = "advancedaeadjust"
+version = "${version}"
+displayName = "AdvancedAEAdjust"
+authors = "sapporo1101"
+description = '''
+
+'''
+#logoFile = ""
+
+[[dependencies.advancedaeadjust]]
+modId = "neoforge"
+type = "required"
+versionRange = "[21,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.advancedaeadjust]]
+modId = "minecraft"
+type = "required"
+versionRange = "[1.21.1,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.advancedaeadjust]]
+modId = "advanced_ae"
+type = "required"
+versionRange = "[1.2.3-1.21.1,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[mixins]]
+config = "advancedaeadjust.mixins.json"

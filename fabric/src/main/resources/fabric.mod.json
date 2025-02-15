@@ -1,0 +1,33 @@
+{
+    "schemaVersion": 1,
+    "id": "advancedaeadjust",
+    "version": "${version}",
+    "name": "AdvancedAEAdjust",
+    "description": "",
+    "authors": ["sapporo1101"],
+    "contact": {
+        "homepage": ""
+    },
+    "license": "All-Rights-Reserved",
+    "icon": "assets/advancedaeadjust/icon.png",
+    "environment": "*",
+    "entrypoints": {
+        "main": [
+            "io.github.sapporo1101.advancedaeadjust.fabric.AdvancedaeadjustFabric"
+        ],
+        "client": [
+            "io.github.sapporo1101.advancedaeadjust.fabric.client.AdvancedaeadjustFabricClient"
+        ]
+    },
+    "mixins": [
+        "advancedaeadjust.mixins.json"
+    ],
+    "depends": {
+        "fabricloader": ">=0.16.10",
+        "minecraft": "~1.21.1",
+        "java": ">=21"
+    },
+    "suggests": {
+        "another-mod": "*"
+    }
+}
