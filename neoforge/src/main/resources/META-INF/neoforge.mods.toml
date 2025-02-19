@@ -36,3 +36,6 @@ side = "BOTH"
 
 [[mixins]]
 config = "advancedaeadjust.mixins.json"
+
+[[mixins]]
+config = "neoforge.advancedaeadjust.mixins.json"

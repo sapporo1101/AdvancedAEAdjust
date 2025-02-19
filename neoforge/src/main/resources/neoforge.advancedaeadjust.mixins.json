@@ -1,0 +1,12 @@
+{
+    "required": true,
+    "package": "io.github.sapporo1101.advancedaeadjust.neoforge.mixin",
+    "compatibilityLevel": "JAVA_21",
+    "minVersion": "0.8",
+    "client": [
+    ],
+    "mixins": ["AdvPatternProviderPartMixin", "PartModelsHelperMixin"],
+    "injectors": {
+        "defaultRequire": 1
+    }
+}

@@ -21,5 +21,12 @@ public final class Advancedaeadjust {
             }
             return json.toString().getBytes();
         });
+
+        ResourceModifier.registerStartsWithModifier("assets/advanced_ae/textures/", (path, data) -> {
+            try (var modifiedData = Advancedaeadjust.class.getClassLoader().getResourceAsStream(path.replaceFirst("^assets/advanced_ae/", "assets/advancedaeadjust/"))) {
+                if (modifiedData == null) return null;
+                return modifiedData.readAllBytes();
+            }
+        });
     }
 }

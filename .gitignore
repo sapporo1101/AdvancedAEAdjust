@@ -4,6 +4,7 @@
 .idea
 **/run/
 !src/**/run/
+.architectury-transformer
 
 # Ignore Gradle GUI config
 gradle-app.setting
