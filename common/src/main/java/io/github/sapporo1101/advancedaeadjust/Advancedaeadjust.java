@@ -11,7 +11,7 @@ public final class Advancedaeadjust {
 
     public static void registerModifiers() {
         ResourceModifier.registerQuickModifier("data/advanced_ae/recipe/regeneration_card.json", data -> {
-            try (var modifiedData = Advancedaeadjust.class.getClassLoader().getResourceAsStream("data/advancedaeadjust/recipe/regeneration_card.json")) {
+            try (var modifiedData = Advancedaeadjust.class.getClassLoader().getResourceAsStream("dataMixin/advancedaeadjust/recipe/regeneration_card.json")) {
                 if (modifiedData == null) return null;
                 return modifiedData.readAllBytes();
             }
