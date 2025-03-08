@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "key": {
+        "A": {
+            "item": "minecraft:enchanted_golden_apple"
+        },
+        "C": {
+            "item": "advanced_ae:quantum_upgrade_base"
+        },
+        "P": {
+            "item": "advanced_ae:quantum_alloy_plate"
+        }
+    },
+    "pattern": [
+        "PAP",
+        "ACA",
+        "PAP"
+    ],
+    "result": {
+        "count": 1,
+        "id": "advanced_ae:regeneration_card"
+    }
+}
